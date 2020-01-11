@@ -1,0 +1,88 @@
+// @import '../../variable.scss';
+
+// .crm-form-conatiner {
+//     padding: 25px 0;
+//     width: 100%;
+
+//     >.row {
+//         margin: 0;
+//     }
+
+//     .crmObjects {
+//         background: #fefefe;
+//         border: 0.5px solid #ababab;
+//         margin: 0;
+//         padding: 25px 10px;
+//         width: 100%;
+//         margin-bottom: 10px;
+//     }
+
+//     .MuiFormControl-root {
+//         width: 100%;
+//         margin-top: 15px;
+//     }
+
+//     .MuiFormGroup-root {
+//         flex-direction: row;
+//         margin-left: -15px;
+//     }
+
+//     .jsonEditor {
+//         padding: 50px;
+//         width: 100%;
+//         border: 1px solid grey;
+//     }
+
+//     .invalidKeys {
+//         width: 100%;
+//         display: block;
+//         margin: 0;
+//         color: $covance-dark-red;
+//     }
+
+//     .has-error {
+//         .help-block {
+//             color: $covance-error-red;
+//             display: block;
+//             text-align: left;
+//         }
+//     }
+
+//     #json-container {
+//         width: 100%;
+//         padding: 10px;
+
+//         pre {
+//             padding: 50px;
+//             font-size: 20px;
+//             margin: 0;
+//         }
+
+//     }
+// }
+
+// .crmBtnContainer {
+//     justify-content: flex-end;
+//     width: 100%;
+//     align-items: center;
+//     margin-top: 15px !important;
+//     margin-bottom: -15px !important;
+
+//     &.bottom {
+//         margin-top: -15px !important;
+//         margin-bottom: 15px !important;
+//     }
+// }
+// .addDeleteContainer {
+//     float: right;
+//     .MuiSvgIcon-root {
+//         cursor: pointer;
+//     }
+// }
+// .popupClose {
+//     position: absolute;
+//     top: 10px;
+//     right: 10px;
+//     cursor: pointer;
+//     color: #aa1a31;
+// }

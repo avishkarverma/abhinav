@@ -1,0 +1,171 @@
+@import './variable.scss';
+
+@font-face {
+  font-family: "Muli";
+ src: url('./assets/muli.woff2') format('woff2');
+ //src: url('./assets/Karbon_family/Karbon-Semibold.otf') format("opentype");
+}
+
+  body{
+    font-family:'Muli',sans-serif !important;
+    font-weight:600;color:#000} 
+
+//for app.jsx
+.removeMargin {
+  margin: 0px !important;
+}
+
+//Global Theme
+html {
+  height: 100%;
+}
+
+body {
+  display: inline;
+}
+
+.middleSection {
+  padding: 0;
+  .middleContainer {
+    padding: 0 50px;
+    > .row {
+      margin: 0;
+    }
+  } 
+}
+.footer-block {
+  margin: 0 50px !important;
+}
+
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .btn-primary {
+    background-color: #aa1a31 !important;
+
+    &:focus,
+    &:hover,
+    &:active,
+    &.active {
+      background-color: #417CCA !important;
+    }
+  }
+
+  .form-control {
+    &:focus {
+      border-bottom: 1px solid $covance-header-blue-background;
+      box-shadow: 0 1px 0 0 $covance-header-blue-background !important;
+      //color: $covance-header-blue-background !important;
+      &+label {
+        color: $covance-header-blue-background !important;
+      }
+    }
+  }
+
+  //login icon
+  .md-form .prefix.active {
+    color: $covance-header-blue-background !important;
+  }
+
+  //chips
+  .MuiChip-root {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    .MuiAvatar-root {
+      font-size: 26px;
+      font-weight: 800;
+      height: 40px;
+      width: 40px;
+    }
+    span {
+      font-size: 20px;
+      font-weight: 700;
+      padding: 0 27px !important;
+      display: block;
+    }
+  }
+  .MuiChip-colorSecondary {
+    background-color: $covance-dark-red;
+    &:hover,
+    &:focus,
+    &.active {
+      background-color: $covance-error-red;
+    }
+  }
+
+  .MuiChip-colorPrimary {
+    background-color: $covance-header-blue-background;
+    &:hover,
+    &:focus,
+    &.active {
+      background-color: $covance-hover-blue;
+    }
+    .MuiChip-avatarColorPrimary {
+      background-color: $covance-dark-blue;
+    }
+  }
+
+  //anchor
+  a {
+    color: $covance-header-blue-background;
+    &:hover,
+    &:focus,
+    &.active {
+      color: $covance-hover-blue
+    }
+  }
+  //dataTable 
+  .pagination .page-item.active .page-link {
+    background-color: $covance-header-blue-background;
+    color: #fff;
+  }
+
+  .container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+}
+
+//popup
+.patientPopup {
+  .modal-body {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+  }
+}
+
+.error {
+  color: #aa1a31;
+  font-size: 9  0%;
+}
+.padding-right {
+  padding-right: 35px !important;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+.loader {
+  background-color: rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    //opacity: .3;
+    z-index: 9999;
+}
+.custom-loader {
+  position: absolute;
+  width: 0px;
+  z-index: 2000000000;
+  left: 50% !important;
+  top: 50% !important;
+
+}

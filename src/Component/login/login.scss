@@ -1,0 +1,31 @@
+@import '../../variable.scss';
+
+.login-container {
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+
+    .card {
+        width: 500px;
+
+        .card-header {
+            background: $covance-header-blue-background;
+            color: #fff;
+        }
+        .card-body {
+            .md-form {
+                width: 100%;
+            }
+            i {
+                left: 0;
+            }
+        }
+    }
+    .has-error {
+        .help-block {
+            color: $covance-error-red;
+            display: block;
+            text-align: left;
+        }
+    }
+}
